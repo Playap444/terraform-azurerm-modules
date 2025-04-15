@@ -6,6 +6,7 @@ resource "azurerm_storage_account" "main_storage" {
   account_replication_type          = var.replication_type
   infrastructure_encryption_enabled = true
   allow_nested_items_to_be_public   = false
+  shared_access_key_enabled         = false
 
   tags = local.all_tags
 

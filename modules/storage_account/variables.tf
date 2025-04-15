@@ -14,6 +14,6 @@ variable "rg_name" {
   type = string
 }
 variable "replication_type" {
-  type = string
+  type    = string
   default = "LRS"
 }
